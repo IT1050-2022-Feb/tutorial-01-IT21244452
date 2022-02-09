@@ -23,7 +23,7 @@ int main() {
   int distance;   //define variables
   float amount;
 
-  printf("Enter the distance :");   //Ask user to enter the distance
+  printf("\nEnter the distance :");   //Ask user to enter the distance
   scanf("%d" ,&distance);
 
   if(distance < 30 )    //condition
@@ -36,7 +36,7 @@ int main() {
     amount = (float)30 * 50 + (distance - 30) * 40;
   }
   
-printf("Amount : %.2f" , amount);   //print amount
+printf("\nAmount : %.2f" , amount);   //print amount
 
   return 0;
 }
