@@ -25,7 +25,7 @@ int main() {
 }
 
 
-//function implementing
+//function implementation
 int minimum(int no1 , int no2)  //function to find minimum
 {
 int a;
