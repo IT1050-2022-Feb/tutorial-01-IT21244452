@@ -21,10 +21,8 @@ int main() {
   printf("Enter a value for n :");   //ask user to input value for n
   scanf("%d" , &n);
 
-  for(i=0 ; i < n ; i++)
+  for(i=1 ; i <= n ; i++)
   {
-    printf("%d  " , i+1);  // print 1 to value of n
-
     sum += i;  // calculation
 
   }
